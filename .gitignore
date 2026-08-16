@@ -1,0 +1,76 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+tsconfig.tsbuildinfo
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+/dist/
+/github-pages-dist/
+/.wrangler/
+/outputs/
+/work/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# assistant and code-tool local state
+.claude/
+CLAUDE.md
+AGENTS.md
+.agent/
+.cursor/
+.cursorrules
+.cursorignore
+.aider*
+.continue/
+.codeium/
+.windsurf/
+.windsurfrules
+.roo/
+.roomodes
+.cline/
+.clinerules
+.kilocode/
+.junie/
+.opencode/
+.gemini/
+.specstory/
+.history/
+.mcp.json
+.openai/
+.codex/
+.github/copilot-instructions.md
+repomix-output.*
