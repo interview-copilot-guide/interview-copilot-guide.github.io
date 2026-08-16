@@ -938,7 +938,7 @@ export const products: Product[] = [
   },
   {
     id: "autocue-chat",
-    name: "Autocue Interview Copilot",
+    name: "Autocue",
     url: "https://autocue.chat/",
     category: "General",
     pricing: "30 free min; $9 one-time seven-day pass with 120 min; Standard $19/mo or $159/year; Pro $29/mo or $249/year.",

@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const de: Messages = {
   nav: {
-    brandAria: "Signalboard Startseite",
+    brandAria: "Startseite des Interview-Copilot-Leitfadens",
     choose: "So wählen Sie",
     directory: "Produkte vergleichen",
     shortlist: "Schnellempfehlungen",
@@ -186,7 +186,7 @@ export const de: Messages = {
     description: "Vergleich 2026 von 69 Echtzeit-KI-Interview-Copiloten: Preise, Gratispläne, Desktop oder Browser, Datenschutzaussagen, Sprachunterstützung und KI-Modelle. Aktualisiert im August 2026.",
     ogTitle: "Interview-Copilot-Leitfaden 2026 — 69 KI-Interviewassistenten im Vergleich",
     ogDescription: "Vergleichen Sie Preise, Einrichtung, Datenschutz, Sprachen und Modelle von 69 Echtzeit-KI-Interviewassistenten. Mit belegten Quellen.",
-    keywords: "Interview Copilot, KI Interview Assistent, Echtzeit Interview KI, Interview KI Vergleich, KI Hilfe Vorstellungsgespräch",
-    imageAlt: "Signalboard Interview-Copilot-Leitfaden — Vergleich von Echtzeit-KI-Interviewassistenten",
+    keywords: "Interview Copilot, KI Interview Assistent, Echtzeit Interview Assistent, KI im Vorstellungsgespräch, Live Interview KI, Interview KI Vergleich, bester Interview Copilot 2026, Interview Copilot Preise, KI für Coding Interviews, technischer Interview Assistent, Interview Transkription KI, unsichtbarer Interview Assistent, Interview Assistent Zweitgerät, mehrsprachiger Interview Assistent",
+    imageAlt: "Interview-Copilot-Leitfaden — Vergleich von Echtzeit-KI-Interviewassistenten",
   },
 };

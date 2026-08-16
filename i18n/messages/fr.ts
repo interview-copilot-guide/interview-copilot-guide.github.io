@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const fr: Messages = {
   nav: {
-    brandAria: "Accueil Signalboard",
+    brandAria: "Accueil du Guide des copilotes d’entretien",
     choose: "Comment choisir",
     directory: "Comparer les produits",
     shortlist: "Choix rapides",
@@ -186,7 +186,7 @@ export const fr: Messages = {
     description: "Comparatif 2026 de 69 copilotes d’entretien par IA en temps réel : prix, offres gratuites, bureau ou navigateur, confidentialité, langues et modèles d’IA. Mis à jour en août 2026.",
     ogTitle: "Guide des copilotes d’entretien 2026 — 69 assistants IA comparés",
     ogDescription: "Comparez prix, installation, confidentialité, langues et modèles de 69 assistants d’entretien en temps réel. Sources vérifiables.",
-    keywords: "copilote d’entretien, assistant d’entretien IA, IA entretien en temps réel, comparatif copilotes d’entretien, aide IA pour entretien d’embauche",
-    imageAlt: "Guide Signalboard des copilotes d’entretien — comparatif des assistants IA en temps réel",
+    keywords: "copilote d’entretien, assistant d’entretien IA, assistant d’entretien en temps réel, IA entretien en direct, aide IA entretien d’embauche, comparatif copilotes d’entretien, meilleur copilote d’entretien 2026, prix copilote d’entretien, IA entretien technique, assistant entretien de code, transcription d’entretien IA, assistant d’entretien indétectable, assistant d’entretien second appareil, assistant d’entretien multilingue",
+    imageAlt: "Guide des copilotes d’entretien — comparatif des assistants IA en temps réel",
   },
 };

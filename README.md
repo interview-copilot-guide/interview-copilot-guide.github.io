@@ -1,4 +1,4 @@
-# Signalboard 26 — The Interview Copilot Guide
+# The Interview Copilot Guide
 
 A practical, source-linked guide to real-time AI interview copilots and adjacent services. Readers can learn how these tools work, compare pricing and setup, identify suitable options for different interview situations, and build a shortlist that fits their needs.
 

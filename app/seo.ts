@@ -8,7 +8,7 @@ import {
   type LocaleCode,
 } from "@/i18n";
 
-export const siteName = "Signalboard";
+export const siteName = "Interview Copilot Guide";
 
 /** The guide is published by a vendor that also appears in the comparison. */
 export const publisherName = "Autocue";

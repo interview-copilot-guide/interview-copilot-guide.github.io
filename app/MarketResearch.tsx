@@ -189,8 +189,8 @@ export function MarketResearch({ locale, messages, basePath = "/" }: {
     <main>
       <nav className="topbar" aria-label={t.nav.primaryNavAria}>
         <a className="brand" href="#top" aria-label={t.nav.brandAria}>
-          <span className="brand-mark">S</span>
-          <span>SIGNALBOARD <em>/ 26</em></span>
+          <span className="brand-mark">IC</span>
+          <span>INTERVIEW COPILOT <em>/ GUIDE</em></span>
         </a>
         <div className="nav-links">
           <a href="#choose">{t.nav.choose}</a>
@@ -457,7 +457,7 @@ export function MarketResearch({ locale, messages, basePath = "/" }: {
 
       <footer>
         <div className="footer-top">
-          <div className="brand"><span className="brand-mark">S</span><span>SIGNALBOARD <em>/ 26</em></span></div>
+          <div className="brand"><span className="brand-mark">IC</span><span>INTERVIEW COPILOT <em>/ GUIDE</em></span></div>
           <p>{t.footer.tagline} {researchDate}</p>
           <a href="#top">{t.footer.backToTop} ↑</a>
         </div>

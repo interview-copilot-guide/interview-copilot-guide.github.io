@@ -4,7 +4,7 @@
  */
 export const en = {
   nav: {
-    brandAria: "Signalboard home",
+    brandAria: "Interview Copilot Guide home",
     choose: "How to choose",
     directory: "Compare products",
     shortlist: "Quick picks",
@@ -185,11 +185,11 @@ export const en = {
   seo: {
     title: "Interview Copilot Guide 2026 — Compare 69 Real-Time AI Interview Assistants",
     shortTitle: "Interview Copilot Guide",
-    description: "2026 comparison of 69 real-time AI interview copilots: pricing, free plans, desktop vs browser setup, privacy claims, language support and AI models. Updated August 2026.",
+    description: "Compare 69 real-time AI interview copilots and live interview assistants: pricing, free plans, desktop vs browser, privacy claims, languages and AI models. Updated August 2026.",
     ogTitle: "Interview Copilot Guide 2026 — Compare 69 Real-Time AI Interview Assistants",
     ogDescription: "Compare pricing, setup, privacy approach, languages and models across 69 real-time AI interview assistants. Source-linked and reviewed in August 2026.",
-    keywords: "interview copilot, AI interview assistant, real-time interview AI, interview AI comparison, AI interview helper, live interview assistant, interview copilot pricing",
-    imageAlt: "Signalboard interview copilot guide — comparison of real-time AI interview assistants",
+    keywords: "interview copilot, AI interview assistant, real time interview assistant, real-time interview AI, live interview assistant, AI interview helper, interview AI comparison, best interview copilot 2026, interview copilot pricing, AI assistant for job interviews, coding interview AI assistant, technical interview copilot, interview transcription AI, AI answers during interview, undetectable interview assistant, screen share safe interview assistant, second device interview assistant, multilingual interview assistant, interview copilot free trial, interview copilot alternatives",
+    imageAlt: "Interview Copilot Guide — comparison of real-time AI interview assistants",
   },
 } as const;
 

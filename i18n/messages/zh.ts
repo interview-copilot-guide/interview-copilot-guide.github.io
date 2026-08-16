@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const zh: Messages = {
   nav: {
-    brandAria: "Signalboard 首页",
+    brandAria: "面试助手指南首页",
     choose: "如何选择",
     directory: "产品对比",
     shortlist: "快速推荐",
@@ -186,7 +186,7 @@ export const zh: Messages = {
     description: "2026 年 69 款实时 AI 面试助手横向对比：价格、免费方案、桌面端与浏览器、隐私声明、语言支持与 AI 模型。2026 年 8 月更新。",
     ogTitle: "2026 面试 AI 助手指南 — 69 款实时助手横向对比",
     ogDescription: "对比 69 款实时 AI 面试助手的价格、使用方式、隐私策略、语言与模型，来源可查。",
-    keywords: "面试助手, AI 面试助手, 实时面试 AI, 面试 AI 对比, 面试辅助工具, 面试助手价格",
-    imageAlt: "Signalboard 面试助手指南 — 实时 AI 面试助手对比",
+    keywords: "面试助手, AI 面试助手, 实时面试助手, 实时面试 AI, 面试 AI 对比, 2026 最佳面试助手, 面试助手价格, 面试实时提词, 编程面试 AI 助手, 技术面试助手, 面试转写 AI, 面试 AI 提示, 隐形面试助手, 屏幕共享 面试助手, 第二设备 面试助手, 多语言面试助手, 面试助手免费试用, 面试助手替代品",
+    imageAlt: "面试 AI 助手指南 — 实时 AI 面试助手对比",
   },
 };

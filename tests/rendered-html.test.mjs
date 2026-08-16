@@ -15,8 +15,8 @@ async function render() {
   const { default: worker } = await import(workerUrl.href);
 
   return worker.fetch(
-    new Request("https://signalboard.example/", {
-      headers: { accept: "text/html", host: "signalboard.example", "x-forwarded-proto": "https" },
+    new Request("https://guide.example/", {
+      headers: { accept: "text/html", host: "guide.example", "x-forwarded-proto": "https" },
     }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },
@@ -36,7 +36,7 @@ test("server-renders the finished interview copilot guide", async () => {
   assert.match(html, /Find the right copilot/i);
   assert.match(html, /Start with your/i);
   assert.match(html, /BUYER’S GUIDE|BUYER CHECKLIST/i);
-  assert.match(html, /https:\/\/signalboard\.example\/og\.png/i);
+  assert.match(html, /https:\/\/guide\.example\/og\.png/i);
   assert.match(html, /application\/ld\+json/i);
 });
 

@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const ko: Messages = {
   nav: {
-    brandAria: "Signalboard 홈",
+    brandAria: "면접 어시스턴트 가이드 홈",
     choose: "선택 방법",
     directory: "제품 비교",
     shortlist: "빠른 추천",
@@ -186,7 +186,7 @@ export const ko: Messages = {
     description: "실시간 AI 면접 어시스턴트 69개를 비교한 2026년 가이드. 가격, 무료 플랜, 데스크톱과 브라우저, 프라이버시 주장, 언어 지원, AI 모델까지. 2026년 8월 업데이트.",
     ogTitle: "면접 AI 어시스턴트 가이드 2026 — 69개 제품 비교",
     ogDescription: "실시간 AI 면접 어시스턴트 69개의 가격, 설치 방식, 프라이버시, 언어, 모델을 비교하세요. 출처가 명시된 가이드입니다.",
-    keywords: "면접 AI, AI 면접 어시스턴트, 실시간 면접 AI, 면접 AI 비교, 면접 도우미 AI, 면접 코파일럿",
-    imageAlt: "Signalboard 면접 AI 어시스턴트 가이드 — 실시간 AI 면접 도구 비교",
+    keywords: "면접 AI, AI 면접 어시스턴트, 실시간 면접 어시스턴트, 실시간 면접 AI, 면접 AI 비교, 2026 최고의 면접 코파일럿, 면접 코파일럿 가격, 라이브 면접 AI 도움, 코딩 면접 AI, 기술 면접 어시스턴트, 면접 전사 AI, 탐지 안 되는 면접 어시스턴트, 화면 공유 면접 어시스턴트, 보조 기기 면접 AI, 다국어 면접 어시스턴트",
+    imageAlt: "면접 AI 어시스턴트 가이드 — 실시간 AI 면접 도구 비교",
   },
 };

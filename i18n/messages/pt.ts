@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const pt: Messages = {
   nav: {
-    brandAria: "Início da Signalboard",
+    brandAria: "Início do Guia de copilotos de entrevista",
     choose: "Como escolher",
     directory: "Comparar produtos",
     shortlist: "Escolhas rápidas",
@@ -186,7 +186,7 @@ export const pt: Messages = {
     description: "Comparativo 2026 de 69 copilotos de entrevista com IA em tempo real: preços, planos gratuitos, desktop x navegador, privacidade, idiomas e modelos de IA. Atualizado em agosto de 2026.",
     ogTitle: "Guia de Copilotos de Entrevista 2026 — 69 assistentes de IA comparados",
     ogDescription: "Compare preços, configuração, privacidade, idiomas e modelos em 69 assistentes de entrevista com IA em tempo real. Com fontes verificáveis.",
-    keywords: "copiloto de entrevista, assistente de entrevista com IA, IA para entrevista em tempo real, comparativo de copilotos de entrevista, ajuda com IA em entrevista",
-    imageAlt: "Guia Signalboard de copilotos de entrevista — comparativo de assistentes de IA em tempo real",
+    keywords: "copiloto de entrevista, assistente de entrevista com IA, assistente de entrevista em tempo real, IA para entrevista ao vivo, ajuda com IA na entrevista, comparativo de copilotos de entrevista, melhor copiloto de entrevista 2026, preço copiloto de entrevista, IA para entrevista de programação, copiloto entrevista técnica, transcrição de entrevista com IA, assistente de entrevista indetectável, assistente de entrevista segundo dispositivo, assistente de entrevista multilíngue",
+    imageAlt: "Guia de copilotos de entrevista — comparativo de assistentes de IA em tempo real",
   },
 };

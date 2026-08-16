@@ -2,7 +2,7 @@ import type { Messages } from "./en";
 
 export const ja: Messages = {
   nav: {
-    brandAria: "Signalboard ホーム",
+    brandAria: "面接AIアシスタント ガイド ホーム",
     choose: "選び方",
     directory: "製品を比較",
     shortlist: "早見ガイド",
@@ -186,7 +186,7 @@ export const ja: Messages = {
     description: "リアルタイム面接AIアシスタント69製品の比較（2026年版）。価格・無料プラン・デスクトップ／ブラウザ・プライバシーの主張・対応言語・AIモデルを網羅。2026年8月更新。",
     ogTitle: "面接AIアシスタント比較ガイド 2026 — 69製品を比較",
     ogDescription: "リアルタイム面接AIアシスタント69製品の価格・導入方法・プライバシー・言語・モデルを比較。出典付き。",
-    keywords: "面接AI, 面接アシスタント, リアルタイム面接AI, 面接AI 比較, AI 面接 サポート, 面接 カンペ AI",
-    imageAlt: "Signalboard 面接AIアシスタントガイド — リアルタイム面接AIの比較",
+    keywords: "面接AI, 面接アシスタント, リアルタイム面接アシスタント, リアルタイム面接AI, 面接 AI 比較, 2026 おすすめ 面接AI, 面接AI 料金, ライブ面接 AI サポート, コーディング面接 AI, 技術面接 アシスタント, 面接 文字起こし AI, バレない 面接AI, 画面共有 面接 アシスタント, 別端末 面接AI, 多言語 面接アシスタント",
+    imageAlt: "面接AIアシスタント ガイド — リアルタイム面接AIの比較",
   },
 };

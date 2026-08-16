@@ -7,10 +7,10 @@ export type Bootstrap = {
   messages: Messages;
 };
 
-export const bootstrapGlobal = "__SIGNALBOARD__";
+export const bootstrapGlobal = "__COPILOT_GUIDE__";
 
 declare global {
   interface Window {
-    __SIGNALBOARD__?: Bootstrap;
+    __COPILOT_GUIDE__?: Bootstrap;
   }
 }

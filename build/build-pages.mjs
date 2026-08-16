@@ -2,7 +2,7 @@
  * Builds the static GitHub Pages site.
  *
  *   1. client bundle  -> github-pages-dist/assets/*  (+ manifest)
- *   2. SSR renderer   -> node_modules/.cache/signalboard-ssr
+ *   2. SSR renderer   -> node_modules/.cache/copilot-guide-ssr
  *   3. one pre-rendered HTML document per locale, plus sitemap.xml,
  *      robots.txt and the web manifest.
  *
@@ -18,7 +18,7 @@ import { build } from "vite";
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const pagesRoot = path.join(projectRoot, "github-pages");
 const outDir = path.join(projectRoot, "github-pages-dist");
-const ssrDir = path.join(projectRoot, "node_modules/.cache/signalboard-ssr");
+const ssrDir = path.join(projectRoot, "node_modules/.cache/copilot-guide-ssr");
 
 const siteUrl = (process.env.VITE_SITE_URL || "http://localhost:4173").replace(/\/+$/, "");
 const basePath = process.env.GITHUB_PAGES_BASE || "/";

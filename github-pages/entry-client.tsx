@@ -11,7 +11,7 @@ const fallback: Bootstrap = {
   messages: getMessages(defaultLocale),
 };
 
-const bootstrap = window.__SIGNALBOARD__ ?? fallback;
+const bootstrap = window.__COPILOT_GUIDE__ ?? fallback;
 const container = document.getElementById("root");
 
 if (container) {
