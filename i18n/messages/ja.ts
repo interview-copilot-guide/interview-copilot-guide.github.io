@@ -13,8 +13,8 @@ export const ja: Messages = {
     languageLabel: "言語",
   },
   disclosure: {
-    methodLabel: "本ガイドの発行者。",
-    methodBody: "Autocue が本ガイドを発行し、比較にも掲載されています。すべての項目は同じ方法で収集し、確認できない項目は推測せず明示しています。掲載や並び順に対してベンダーからの支払いは一切ありません。",
+    methodLabel: "本ガイドについて。",
+    methodBody: "すべての項目は同じ方法で収集し、確認できない項目は推測せず明示しています。掲載や並び順に対してベンダーからの支払いは一切ありません。",
   },
   hero: {
     eyebrow: "面接AIアシスタント ガイド · 更新",
@@ -177,7 +177,7 @@ export const ja: Messages = {
     ],
   },
   footer: {
-    tagline: "Autocue の面接AIアシスタント ガイド · 更新",
+    tagline: "面接AIアシスタント ガイド · 更新",
     backToTop: "トップへ戻る",
   },
   seo: {

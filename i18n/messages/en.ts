@@ -15,8 +15,8 @@ export const en = {
     languageLabel: "Language",
   },
   disclosure: {
-    methodLabel: "Who publishes this.",
-    methodBody: "Autocue publishes this guide and also appears in the comparison. Records are compiled the same way for every entry, unverifiable fields are marked rather than estimated, and no vendor pays for placement or ordering here.",
+    methodLabel: "About this guide.",
+    methodBody: "Records are compiled the same way for every entry, unverifiable fields are marked rather than estimated, and no vendor pays for placement or ordering here.",
   },
   hero: {
     eyebrow: "INTERVIEW COPILOT GUIDE · UPDATED",
@@ -179,7 +179,7 @@ export const en = {
     ],
   },
   footer: {
-    tagline: "Interview copilot guide from Autocue · Updated",
+    tagline: "Interview copilot guide · Updated",
     backToTop: "Back to top",
   },
   seo: {

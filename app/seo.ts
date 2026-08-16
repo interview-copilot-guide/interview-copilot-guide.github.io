@@ -10,10 +10,6 @@ import {
 
 export const siteName = "Interview Copilot Guide";
 
-/** The guide is published by a vendor that also appears in the comparison. */
-export const publisherName = "Autocue";
-export const publisherUrl = "https://autocue.chat";
-
 /** Escapes the five XML/HTML metacharacters for use in attribute values and text. */
 export function escapeHtml(value: string): string {
   return value
@@ -44,7 +40,7 @@ function assetUrl(siteUrl: string, file: string) {
   return `${siteUrl.replace(/\/$/, "")}/${file}`;
 }
 
-/** JSON-LD graph: the site, the publisher, the comparison list and the FAQ. */
+/** JSON-LD graph: the site, the comparison list and the FAQ. */
 export function buildStructuredData({ locale, siteUrl }: HeadOptions) {
   const config = getLocaleConfig(locale);
   const messages = getMessages(locale);
@@ -60,21 +56,13 @@ export function buildStructuredData({ locale, siteUrl }: HeadOptions) {
         name: siteName,
         url: siteUrl,
         logo: imageUrl,
-        // The guide is vendor-published; say so in the structured data too.
-        parentOrganization: { "@id": `${siteUrl}/#publisher` },
-      },
-      {
-        "@type": "Organization",
-        "@id": `${siteUrl}/#publisher`,
-        name: publisherName,
-        url: publisherUrl,
       },
       {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         name: siteName,
         url: siteUrl,
-        publisher: { "@id": `${siteUrl}/#publisher` },
+        publisher: { "@id": `${siteUrl}/#organization` },
         inLanguage: locales.map((item) => item.hreflang),
       },
       {
@@ -85,7 +73,7 @@ export function buildStructuredData({ locale, siteUrl }: HeadOptions) {
         description: messages.seo.description,
         inLanguage: config.hreflang,
         isPartOf: { "@id": `${siteUrl}/#website` },
-        publisher: { "@id": `${siteUrl}/#publisher` },
+        publisher: { "@id": `${siteUrl}/#organization` },
         dateModified: researchDateIso,
         primaryImageOfPage: imageUrl,
       },

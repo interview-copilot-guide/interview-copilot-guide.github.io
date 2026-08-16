@@ -13,8 +13,8 @@ export const zh: Messages = {
     languageLabel: "语言",
   },
   disclosure: {
-    methodLabel: "本指南由谁发布。",
-    methodBody: "Autocue 发布本指南，同时也出现在对比之中。所有条目都以相同方式整理，无法核实的字段予以标注而非估算，也没有任何厂商为收录位置或排序付费。",
+    methodLabel: "关于本指南。",
+    methodBody: "所有条目都以相同方式整理，无法核实的字段予以标注而非估算，也没有任何厂商为收录位置或排序付费。",
   },
   hero: {
     eyebrow: "面试助手指南 · 更新于",
@@ -177,7 +177,7 @@ export const zh: Messages = {
     ],
   },
   footer: {
-    tagline: "Autocue 出品的面试助手指南 · 更新于",
+    tagline: "面试助手指南 · 更新于",
     backToTop: "回到顶部",
   },
   seo: {

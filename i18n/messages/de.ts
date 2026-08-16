@@ -13,8 +13,8 @@ export const de: Messages = {
     languageLabel: "Sprache",
   },
   disclosure: {
-    methodLabel: "Wer diesen Leitfaden veröffentlicht.",
-    methodBody: "Autocue veröffentlicht diesen Leitfaden und taucht selbst im Vergleich auf. Alle Einträge werden gleich erhoben, nicht überprüfbare Felder werden gekennzeichnet statt geschätzt, und kein Anbieter zahlt hier für Aufnahme oder Platzierung.",
+    methodLabel: "Über diesen Leitfaden.",
+    methodBody: "Alle Einträge werden gleich erhoben, nicht überprüfbare Felder werden gekennzeichnet statt geschätzt, und kein Anbieter zahlt hier für Aufnahme oder Platzierung.",
   },
   hero: {
     eyebrow: "INTERVIEW-COPILOT-LEITFADEN · AKTUALISIERT",
@@ -177,7 +177,7 @@ export const de: Messages = {
     ],
   },
   footer: {
-    tagline: "Interview-Copilot-Leitfaden von Autocue · Aktualisiert",
+    tagline: "Interview-Copilot-Leitfaden · Aktualisiert",
     backToTop: "Nach oben",
   },
   seo: {

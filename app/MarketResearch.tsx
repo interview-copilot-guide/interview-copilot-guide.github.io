@@ -14,13 +14,7 @@ const pricingValues = ["All", "Subscription", "Credits / time", "Pass", "Lifetim
 
 type SortKey = "name" | "price-low" | "price-high" | "evidence";
 
-/**
- * Product names quoted in the quick-fit guide; brand names are never translated.
- *
- * Ordering rule, stated in the disclosure so readers can check it: names are
- * alphabetical, except Autocue — the publisher's own product — which is always
- * listed last in its row so the publisher never appears as a top pick.
- */
+/** Product names quoted in the quick-fit guide; brand names are never translated. */
 const shortlistExamples = [
   "Interviews Chat · Parakeet AI · Autocue",
   "Interviews Chat · Parakeet AI · Autocue",

@@ -13,8 +13,8 @@ export const fr: Messages = {
     languageLabel: "Langue",
   },
   disclosure: {
-    methodLabel: "Qui publie ce guide.",
-    methodBody: "Autocue publie ce guide et figure aussi dans la comparaison. Toutes les fiches sont constituées de la même façon, les champs invérifiables sont signalés plutôt qu’estimés, et aucun éditeur ne paie pour être référencé ni pour son classement.",
+    methodLabel: "À propos de ce guide.",
+    methodBody: "Toutes les fiches sont constituées de la même façon, les champs invérifiables sont signalés plutôt qu’estimés, et aucun éditeur ne paie pour être référencé ni pour son classement.",
   },
   hero: {
     eyebrow: "GUIDE DES COPILOTES D’ENTRETIEN · MIS À JOUR",
@@ -177,7 +177,7 @@ export const fr: Messages = {
     ],
   },
   footer: {
-    tagline: "Guide des copilotes d’entretien par Autocue · Mis à jour",
+    tagline: "Guide des copilotes d’entretien · Mis à jour",
     backToTop: "Haut de page",
   },
   seo: {

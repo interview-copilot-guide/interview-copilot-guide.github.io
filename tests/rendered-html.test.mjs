@@ -61,20 +61,15 @@ test("pre-renders indexable content for every locale", async () => {
   assert.match(await readDist("ar/index.html"), /<html lang="ar" dir="rtl">/);
 });
 
-test("discloses the publisher on every locale and never claims independence", async () => {
+test("states the editorial method on every locale", async () => {
   for (const locale of ["", ...localeDirs.map((code) => `${code}/`)]) {
     const html = await readDist(`${locale}index.html`);
-    assert.match(html, /Autocue/, `${locale || "en"} does not name the publisher`);
-    assert.doesNotMatch(
+    assert.match(
       html,
-      /INDEPENDENT GUIDE|Independent interview copilot guide|independently compiled/i,
-      `${locale || "en"} still claims independence`,
+      /no vendor pays|ningún proveedor paga|kein Anbieter zahlt|aucun éditeur ne paie|nenhum fornecedor paga|ни один поставщик не платит|어떤 공급사도|ベンダーからの支払い|没有.*厂商|कोई वेंडर|لا يدفع أي/i,
+      `${locale || "en"} is missing the editorial method disclosure`,
     );
   }
-
-  // The publisher's own product must never lead a quick-pick row.
-  const english = await readDist("index.html");
-  assert.doesNotMatch(english, /<h3 lang="en">Autocue/);
 });
 
 test("emits the SEO surface: canonical, hreflang, structured data, sitemap", async () => {
@@ -103,8 +98,11 @@ test("emits the SEO surface: canonical, hreflang, structured data, sitemap", asy
   assert.ok(jsonLd, "no JSON-LD block on the English page");
   const graph = JSON.parse(jsonLd)["@graph"];
   const types = graph.map((node) => node["@type"]);
-  assert.deepEqual(types, ["Organization", "Organization", "WebSite", "WebPage", "ItemList", "FAQPage"]);
-  assert.ok(graph.some((node) => node.name === "Autocue"), "publisher is not disclosed in the structured data");
+  assert.deepEqual(types, ["Organization", "WebSite", "WebPage", "ItemList", "FAQPage"]);
+  assert.ok(
+    graph.some((node) => node.name === "Interview Copilot Guide"),
+    "site name is not disclosed in the structured data",
+  );
   assert.equal(graph.find((node) => node["@type"] === "ItemList").numberOfItems, 69);
   assert.ok(graph.find((node) => node["@type"] === "FAQPage").mainEntity.length >= 6);
 

@@ -13,8 +13,8 @@ export const es: Messages = {
     languageLabel: "Idioma",
   },
   disclosure: {
-    methodLabel: "Quién publica esta guía.",
-    methodBody: "Autocue publica esta guía y también aparece en la comparativa. Todas las fichas se recopilan del mismo modo, los campos no verificables se marcan en lugar de estimarse y ningún proveedor paga por aparecer ni por su posición.",
+    methodLabel: "Acerca de esta guía.",
+    methodBody: "Todas las fichas se recopilan del mismo modo, los campos no verificables se marcan en lugar de estimarse y ningún proveedor paga por aparecer ni por su posición.",
   },
   hero: {
     eyebrow: "GUÍA DE COPILOTOS DE ENTREVISTA · ACTUALIZADA",
@@ -177,7 +177,7 @@ export const es: Messages = {
     ],
   },
   footer: {
-    tagline: "Guía de copilotos de entrevista de Autocue · Actualizada",
+    tagline: "Guía de copilotos de entrevista · Actualizada",
     backToTop: "Volver arriba",
   },
   seo: {

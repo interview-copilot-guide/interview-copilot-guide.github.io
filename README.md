@@ -2,7 +2,7 @@
 
 A practical, source-linked guide to real-time AI interview copilots and adjacent services. Readers can learn how these tools work, compare pricing and setup, identify suitable options for different interview situations, and build a shortlist that fits their needs.
 
-Published by [Autocue](https://autocue.chat), which also appears in the comparison. Every record is compiled the same way and quick-fit examples are alphabetical, with Autocue last in its row.
+Every record is compiled the same way and quick-fit examples are alphabetical.
 
 Guide reviewed: **10–16 August 2026**. 69 products compared.
 
@@ -41,24 +41,6 @@ To add a language: append an entry to `i18n/locales.ts`, add `i18n/messages/<cod
 4. The included workflow type-checks, lints, builds and publishes the static site automatically.
 
 For a project Page instead of an organization root Page, set `GITHUB_PAGES_BASE` to `/<repository-name>/` and `VITE_SITE_URL` to the full project-page URL in `.github/workflows/deploy-pages.yml`.
-
-## Local preview
-
-```bash
-npm install
-npm run dev
-```
-
-## Production checks
-
-```bash
-npm run typecheck
-npm run lint
-npm run test          # builds both surfaces, then asserts the rendered output
-npm run export:github # static output only
-```
-
-The deployable static output is written to `github-pages-dist/` (git-ignored — CI rebuilds it).
 
 ## Updating the guide
 

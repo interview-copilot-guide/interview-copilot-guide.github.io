@@ -13,8 +13,8 @@ export const ko: Messages = {
     languageLabel: "언어",
   },
   disclosure: {
-    methodLabel: "누가 발행하는가.",
-    methodBody: "Autocue가 이 가이드를 발행하며 비교 목록에도 포함되어 있습니다. 모든 항목은 같은 방식으로 정리했고, 확인할 수 없는 항목은 추정하지 않고 표시했으며, 어떤 공급사도 게재나 순서를 위해 비용을 지불하지 않았습니다.",
+    methodLabel: "이 가이드에 대해.",
+    methodBody: "모든 항목은 같은 방식으로 정리했고, 확인할 수 없는 항목은 추정하지 않고 표시했으며, 어떤 공급사도 게재나 순서를 위해 비용을 지불하지 않았습니다.",
   },
   hero: {
     eyebrow: "면접 어시스턴트 가이드 · 업데이트",
@@ -177,7 +177,7 @@ export const ko: Messages = {
     ],
   },
   footer: {
-    tagline: "Autocue의 면접 어시스턴트 가이드 · 업데이트",
+    tagline: "면접 어시스턴트 가이드 · 업데이트",
     backToTop: "맨 위로",
   },
   seo: {
